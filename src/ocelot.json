@@ -1,0 +1,29 @@
+{
+	"Routes": [
+		{
+			"DownstreamPathTemplate": "/api/v1/Leads",
+			"DownstreamScheme": "https",
+			"DownstreamHostAndPorts": [
+				{
+					"Host": "localhost",
+					"Port": 7281
+				}
+			],
+			"UpstreamPathTemplate": "/Leads"
+		},
+		{
+			"DownstreamPathTemplate": "/api/v1/Leads/{everything}",
+			"DownstreamScheme": "https",
+			"DownstreamHostAndPorts": [
+				{
+					"Host": "localhost",
+					"Port": 7281
+				}
+			],
+			"UpstreamPathTemplate": "/Leads/{everything}"
+		}
+	],
+	"GlobalConfiguration": {
+		"BaseUrl": "https://localhost:1403"
+	}
+}

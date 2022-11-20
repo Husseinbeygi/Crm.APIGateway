@@ -2,13 +2,13 @@
   "profiles": {
     "APIGateway": {
       "commandName": "Project",
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": true,
-      "applicationUrl": "https://localhost:7171;http://localhost:5213"
+      "applicationUrl": "https://localhost:1403;http://localhost:5213"
     },
     "IIS Express": {
       "commandName": "IISExpress",
